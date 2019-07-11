@@ -1,0 +1,37 @@
+header {
+  background: lightblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+button {
+  background: aquamarine;
+}
+
+button:hover {
+  background: #348686;
+}
+
+h1 {
+  color: #0974a5;
+}
+
+h2 {
+  text-align: center;
+  font-family: arial;
+}
+
+.function {
+  background: coral;
+  color: white;
+  border-radius: 6px;
+}
+
+.function:hover {
+  background: lightsalmon;
+}
+/*# sourceMappingURL=style.css.map */

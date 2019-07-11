@@ -1,0 +1,27 @@
+//importing variables from another file:
+@import './variables';
+@import './functions';
+header {
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+}
+button {
+    background: $mainBtn;
+    &:hover {
+        background: rgb(52, 134, 134);
+    }
+}
+
+h1 {
+    color: $textColor;
+}
+
+h2 {
+    text-align: $alignCenter;
+    font-family: $arialText;
+}
+
+.function {
+    @include changeBtn();
+}

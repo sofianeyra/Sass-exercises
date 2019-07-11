@@ -1,0 +1,9 @@
+//you can apply multiple styles just with functions
+@mixin changeBtn {
+    background: coral;
+    color: white;
+    border-radius: 6px;
+    &:hover {
+        background: lightsalmon;
+    }
+}
